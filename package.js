@@ -7,6 +7,5 @@ Package.describe({
 Package.onUse(function(api) {
     api.mainModule('lib/index.js', 'server');
     api.export('recurring', 'server');
-
-    api.use(['modules'], 'server');
+    
 });
